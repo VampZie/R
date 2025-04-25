@@ -6,7 +6,7 @@ ________________________________________________________________________________
 Following are the work i'll be showing:
 
 1. Statistical Parameters You Can Analyze
-   => For Sequences (Primary Structure) [ required packages - Biostarings or seqinr ]:
+   => For Sequences (Primary Structure)   { required packages - Biostarings or seqinr }:
        - Amino acid frequency or composition (e.g., % of Gly, Ala, etc.)
        - Molecular weight of the sequence
        - Isoelectric point (pI) and charge at different pH
