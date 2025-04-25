@@ -1,6 +1,5 @@
 This exercise is application based extenstion of exercise 1 over Protein structure data and sequence using statistical parameters.
 __________________________________________________________________________________________________________________________________
-:--------------------------------------------------:
 | I am using PDB fasta formate file, PDB ID: 8Z73  |
 :--------------------------------------------------:
 
