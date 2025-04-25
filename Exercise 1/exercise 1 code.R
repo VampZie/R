@@ -1,15 +1,15 @@
 # Load data
 rdt <- read.csv("/home/vzscyborg/datasets/pima-indians-diabetes.csv")
-df <- rdt[, 1:8]  # Assuming Outcome is column 9
-target <- rdt$Outcome  # The dependent variable for regression
+df <- rdt[, 1:8]  # i used only first 8 columns
+target <- rdt$Outcome  #dependent variable for regression
 
-# Define mode function
+#mode function
 getmode <- function(v) {
   uniqv <- unique(v)
   uniqv[which.max(tabulate(match(v, uniqv)))]
 }
 
-# Create summary data frame
+#summary data frame
 summary_table <- data.frame(
   Feature = character(),
   Mean = numeric(),
@@ -46,6 +46,4 @@ for (colname in colnames(df)) {
     Regression_Slope = slope
   ))
 }
-
-# Print the summary table
 print(summary_table, row.names = FALSE)
