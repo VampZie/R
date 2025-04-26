@@ -8,7 +8,13 @@ EXERCISE : 1
     - R have prebuild functions for all above mentioned statistics functions except Mode, for that at line 6 i made it standard Mode function.
 
 EXERCISE : 2
-
+    -Analysis protein sequence and structure data using various statistical parameters. Key tasks include:
+        -Amino acid composition analysis
+        -Molecular weight calculation
+        -Isoelectric point (pI) determination
+        -Hydrophobicity index evaluation (Kyte-Doolittle scale)
+        -Secondary structure prediction
+        -RMSD, RMSF analysis for protein flexibility and stability
 EXERCISE : 3
 
 EXERCISE : 4
