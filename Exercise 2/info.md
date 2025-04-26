@@ -63,3 +63,4 @@ _Required packages_: `bio3d`
 - Accessible surface area (ASA)
 - Contact maps and distance matrices
 - RMSD / RMSF (for comparing structures or dynamics)
+   - For single structure, rmsd is 0.
