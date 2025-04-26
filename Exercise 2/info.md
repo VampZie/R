@@ -26,10 +26,10 @@ _Required packages_: `Biostrings` or `seqinr`
 _Required packages_: `bio3d`
 
 - Secondary structure composition (α-helix, β-sheet, coils)
-  --$start	The starting residue number of a secondary structure (like a helix or sheet)
-  $end	The ending residue number of that structure
-  $chain	The chain ID (e.g., "A", "B", "D", "F" — different chains in the protein)
-  $type	Type of secondary structure
+--$start	The starting residue number of a secondary structure (like a helix or sheet)
+--$end	The ending residue number of that structure
+--$chain	The chain ID (e.g., "A", "B", "D", "F" — different chains in the protein)
+--$type	Type of secondary structure
 - Ramachandran plot stats (phi/psi angle distribution)
 - B-factor (flexibility of atoms)
    called temperature factor or atomic displacement parameter) measures the flexibility or movement of atoms in a crystal structure.
