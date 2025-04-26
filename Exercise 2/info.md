@@ -20,3 +20,15 @@ _Required packages_: `Biostrings` or `seqinr`
 - Hydrophobicity index (e.g., using Kyte-Doolittle scale)
 - Shannon entropy (sequence complexity)
 - Amino acid diversity / richness
+
+### 2. Secondary structure composition (α-helix, β-sheet, coils)  
+**For Sequences (Secondary Structure)**  
+_Required packages_: `bio3d`
+
+- Secondary structure composition (α-helix, β-sheet, coils)
+- Ramachandran plot stats (phi/psi angle distribution)
+- B-factor (flexibility of atoms)
+- Hydrogen bond counts
+- Accessible surface area (ASA)
+- Contact maps and distance matrices
+- RMSD / RMSF (for comparing structures or dynamics)
