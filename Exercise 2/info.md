@@ -28,6 +28,14 @@ _Required packages_: `bio3d`
 - Secondary structure composition (α-helix, β-sheet, coils)
 - Ramachandran plot stats (phi/psi angle distribution)
 - B-factor (flexibility of atoms)
+   called temperature factor or atomic displacement parameter) measures the flexibility or movement of atoms in a crystal structure.
+  FASTA files can't give B-factors (no atomic details)
+  PDB files contain B-factors for each atom.
+  summary(b_factors): Mean, median, min, max B-factor → how flexible the protein is overall.
+  hist(b_factors): A histogram of flexibility across the protein.
+  plot(b_factors): Line plot along atoms (peaks = flexible regions).
+  Low B-factor (~10-20) → Stable, rigid part.
+  High B-factor (>50) → Flexible, mobile loops or disordered regions.
 - Hydrogen bond counts
 - Accessible surface area (ASA)
 - Contact maps and distance matrices
