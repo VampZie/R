@@ -64,3 +64,4 @@ _Required packages_: `bio3d`
 - Contact maps and distance matrices
 - RMSD / RMSF (for comparing structures or dynamics)
    - For single structure, rmsd is 0.
+   - If you had two pdbs, you could do.
